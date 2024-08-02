@@ -36,6 +36,6 @@ thoughtSchema
         return this.reactions.length();
     })
 
-const User = model('user', thoughtSchema);
+const Thought = model('thought', thoughtSchema);
 
-module.exports = User;
+module.exports = Thought;
